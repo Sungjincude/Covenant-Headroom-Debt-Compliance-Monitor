@@ -12,16 +12,14 @@ A five-year, scenario-driven monitor for a **fictional €100 million senior sec
 - **Base / Downside switch:** one dropdown updates EBITDA, cash flow, ratios, headroom and alerts.
 - **Three maintenance-style covenant tests:** maximum net leverage, minimum cash interest coverage and minimum fixed charge coverage (FCCR).
 - **Automatic exception reporting:** PASS / BREACH flags, headroom by year, first breach year and first breach type.
-- **Practice version included:** calculation cells left blank, with eight guided tasks in the `06_Practice_Lab` sheet.
 
 ## Files
 
 | File | Use |
 | --- | --- |
 | [Completed model](models/Covenant_Headroom_Completed_Answer.xlsx) | Working model, formulas, scenario switch and charts |
-| [Practice workbook](models/Covenant_Headroom_Practice_Workbook.xlsx) | Rebuild the formulas and compare against the answer key |
 
-Open the workbooks in **Microsoft Excel**. Select **Enable Editing** if prompted, and allow Excel to recalculate formulas. GitHub cannot render Excel dashboards or run their data validation controls in its web file viewer; download the XLSX files to use them.
+Open the workbook in **Microsoft Excel**. Select **Enable Editing** if prompted, and allow Excel to recalculate formulas. GitHub cannot render Excel dashboards or run their data validation controls in its web file viewer; download the XLSX file to use it.
 
 ## Workbook guide
 
@@ -33,7 +31,6 @@ Open the workbooks in **Microsoft Excel**. Select **Enable Editing** if prompted
 | `03_Financial` | Scenario-selected EBITDA, cash flow available for debt service and cash balances |
 | `04_Covenants` | Covenant ratios, contractual limits, headroom and breach flags |
 | `05_Dashboard` | Scenario selector, compliance summary, first-breach alert and charts |
-| `06_Practice_Lab` | Eight tasks and model-testing checkpoints |
 
 ## How to use
 
@@ -42,7 +39,6 @@ Open the workbooks in **Microsoft Excel**. Select **Enable Editing** if prompted
 3. Inspect the year-by-year headroom, PASS / BREACH indicators, first-breach year and charts.
 4. Adjust the **blue input assumptions** in `01_inputs` to explore pricing, amortisation, covenant step-downs and operating performance.
 5. Confirm the debt schedule checks, liquidity flag and overall covenant results behave as expected.
-6. For hands-on practice, open the separate practice workbook and follow `06_Practice_Lab`.
 
 ## Covenant definitions used in this example
 
@@ -61,7 +57,7 @@ The facility begins at **€100m**, charges a fixed **8%** annual rate (applied 
 | **Base** | All five forecast years compliant |
 | **Downside** | First covenant breach in **2028 (FCCR)**; net leverage also breaches in **2031** |
 
-The initial answer-key workbook opens in the **Downside** scenario. These are model outputs, not statements about a real borrower or loan.
+The completed workbook opens in the **Downside** scenario. These are model outputs, not statements about a real borrower or loan.
 
 ## Model limitations
 
@@ -72,10 +68,6 @@ For credit underwriting or actual monitoring, the precise signed credit agreemen
 ## Excel techniques demonstrated
 
 `IF` · `AND` · `COUNTIF` · `INDEX/MATCH` · relative / absolute references · scenario dropdown / data validation · dynamic dashboards · line charts · conditional formatting · audit checks.
-
-## CV bullet
-
-> Built a five-year debt covenant compliance monitor for an illustrative €100m term loan, integrating scenario-driven EBITDA, debt amortisation, three covenant tests, headroom forecasting and automated breach detection.
 
 ---
 **Portfolio case study:** fictional borrower, synthetic financials, created for learning and demonstration.
